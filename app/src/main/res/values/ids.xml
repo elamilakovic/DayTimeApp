@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="VrijemeTxtView" type="id" />
+    <item name="TimeTxtView" type="id" />
+    <item name="celijaDogadajaTV" type="id" />
+</resources>
