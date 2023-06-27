@@ -48,13 +48,13 @@ public class MainActivity extends AppCompatActivity implements AdapterKalendara.
         calendarRecyclerView.setAdapter(calendarAdapter);
     }
 
-    public void prosliMjesec(View view)
+    public void PreviousMjesec(View view)
     {
         KalendarUtils.selectedDate = KalendarUtils.selectedDate.minusMonths(1);
         setMonthView();
     }
 
-    public void iduciMjesec(View view)
+    public void NextMjesec(View view)
     {
         KalendarUtils.selectedDate = KalendarUtils.selectedDate.plusMonths(1);
         setMonthView();

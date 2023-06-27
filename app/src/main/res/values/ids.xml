@@ -3,4 +3,5 @@
     <item name="VrijemeTxtView" type="id" />
     <item name="TimeTxtView" type="id" />
     <item name="celijaDogadajaTV" type="id" />
+    <item name="dayOfWeekTV" type="id" />
 </resources>

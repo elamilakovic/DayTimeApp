@@ -24,9 +24,7 @@
         android:layout_gravity="center"
         android:textSize="20sp"
         android:ems="10"
-        android:inputType="text"
-        android:autofillHints=""
-        tools:ignore="LabelFor" />
+        android:inputType="text"/>
 
     <TextView
         android:id="@+id/datumDogadajaID"

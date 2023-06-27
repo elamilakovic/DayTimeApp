@@ -9,7 +9,7 @@
         android:layout_width="70dp"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:id="@+id/vrijemeTxtView"
+        android:id="@+id/TimeTxtView"
         android:textSize="20sp"
         android:textColor="@color/dark_red"
         android:text="@string/_10_00"/>
@@ -31,7 +31,7 @@
             android:textSize="12sp"
             android:lines="2"
             android:textColor="@color/dark_red"
-            android:text="@string/event1"/>
+            android:text="@string/Event_1"/>
 
         <TextView
             android:layout_width="0dp"
@@ -44,7 +44,7 @@
             android:textSize="12sp"
             android:lines="2"
             android:textColor="@color/dark_red"
-            android:text="@string/event2"/>
+            android:text="@string/Event_2"/>
 
         <TextView
             android:layout_width="0dp"
@@ -57,7 +57,7 @@
             android:textSize="12sp"
             android:lines="2"
             android:textColor="@color/dark_red"
-            android:text="@string/event3"/>
+            android:text="@string/Event_3"/>
 
     </LinearLayout>
 

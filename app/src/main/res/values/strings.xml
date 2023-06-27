@@ -43,4 +43,8 @@
     <string name="event3">event3</string>
     <string name="Dnevni">Dnevni</string>
     <string name="natrag" />
+    <string name="event_1">Event 1</string>
+    <string name="Event_2">Event 2</string>
+    <string name="Event_1">Event 1</string>
+    <string name="Event_3">event 3</string>
 </resources>

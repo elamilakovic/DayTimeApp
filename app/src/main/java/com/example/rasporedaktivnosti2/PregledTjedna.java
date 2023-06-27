@@ -89,7 +89,7 @@ public class PregledTjedna extends AppCompatActivity implements AdapterKalendara
         startActivity(new Intent(this, UrediDogadaj.class));
     }
 
-    public void DanAction(View view)
+    public void DailyAction(View view)
     {
         startActivity(new Intent(this, DnevniPregled.class));
     }

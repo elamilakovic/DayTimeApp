@@ -20,7 +20,7 @@ import java.util.Locale;
 public class DnevniPregled extends AppCompatActivity
 {
     private TextView mjesecDanText;
-    private TextView dayofweekTxtView;
+    private TextView dayOfWeekTV;
     private ListView satiListView;
 
     @Override
@@ -34,7 +34,7 @@ public class DnevniPregled extends AppCompatActivity
     private void initwidgets()
     {
         mjesecDanText = findViewById(R.id.mjesecDanText);
-        dayofweekTxtView = findViewById(R.id.dayofweekTxtView);
+        dayOfWeekTV = findViewById(R.id.dayOfWeekTV);
         satiListView = findViewById(R.id.satiListView);
     }
 
@@ -48,7 +48,7 @@ public class DnevniPregled extends AppCompatActivity
     {
         mjesecDanText.setText(KalendarUtils.monthDayFromDate(selectedDate));
         String dayOfWeek = selectedDate.getDayOfWeek().getDisplayName(TextStyle.FULL, Locale.getDefault());
-        dayofweekTxtView.setText(dayOfWeek);
+        dayOfWeekTV.setText(dayOfWeek);
         setAdapterSati();
     }
 
@@ -72,13 +72,13 @@ public class DnevniPregled extends AppCompatActivity
         return list;
     }
 
-    public void prosliDan(View view)
+    public void PreviousDan(View view)
     {
         KalendarUtils.selectedDate = KalendarUtils.selectedDate.minusDays(1);
         setDnevniPregled();
     }
 
-    public void iduciDan(View view)
+    public void NextDan(View view)
     {
         KalendarUtils.selectedDate = KalendarUtils.selectedDate.plusDays(1);
         setDnevniPregled();
