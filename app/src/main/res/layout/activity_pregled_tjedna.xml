@@ -70,7 +70,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Pon"
-            android:textColor="@color/Gray"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -79,7 +80,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Uto"
-            android:textColor="@color/Gray"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -88,7 +90,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Sri"
-            android:textColor="@color/Gray"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -97,7 +100,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Cet"
-            android:textColor="@color/Gray"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -106,7 +110,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Pet"
-            android:textColor="@color/Gray"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -115,7 +120,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Sub"
-            android:textColor="@color/Gray"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -124,7 +130,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Ned"
-            android:textColor="@color/Gray"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -136,6 +143,7 @@
         android:id="@+id/calendarRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:background="@color/lightGray"
         android:layout_weight="1"/>
 
     <Button
@@ -153,6 +161,7 @@
         android:id="@+id/eventListView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:background="@color/lightGray"
         android:layout_weight="5"/>
 
 

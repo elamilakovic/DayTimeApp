@@ -47,4 +47,5 @@
     <string name="Event_2">Event 2</string>
     <string name="Event_1">Event 1</string>
     <string name="Event_3">event 3</string>
+    <string name="select_time">Select Time</string>
 </resources>

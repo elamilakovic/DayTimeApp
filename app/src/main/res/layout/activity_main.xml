@@ -73,7 +73,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/PON"
-            android:textColor="@color/dark_red"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -82,7 +83,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/UTO"
-            android:textColor="@color/dark_red"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
@@ -92,7 +94,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/SRI"
-            android:textColor="@color/dark_red"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
@@ -102,7 +105,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/CET"
-            android:textColor="@color/dark_red"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -111,7 +115,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/PET"
-            android:textColor="@color/dark_red"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -120,7 +125,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="SUB"
-            android:textColor="@color/dark_red"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
@@ -130,7 +136,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="NED"
-            android:textColor="@color/dark_red"
+            android:textColor="@color/white"
+            android:background="@color/Gray"
             android:textAlignment="center"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
@@ -142,6 +149,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/calendarRecyclerView"
         android:layout_width="match_parent"
+        android:background="@color/lightGray"
         android:layout_height="match_parent"/>
 
 </LinearLayout>
